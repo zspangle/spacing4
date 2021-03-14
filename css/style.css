@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+html,
+body {
+  height: 100%;
+  width: 100%;
+  background-color: black;
+  display: flex;
+}
+.parent {
+  height: 768px;
+  width: 1024px;
+  background-color: white;
+  display: flex;
+}
+.parent .redbox {
+  height: 200px;
+  width: 200px;
+  background-color: red;
+  position: absolute;
+  center: 0px;
+  top: 568px;
+  left: 420px;
+  display: flex;
+  z-index: 1;
+}
+.parent .bluebox {
+  height: 100px;
+  width: 100px;
+  background-color: blue;
+  position: absolute;
+  left: 562px;
+  top: 502px;
+  display: flex;
+  z-index: 2;
+}
+.parent .yellowbox {
+  height: 150px;
+  width: 150px;
+  background-color: yellow;
+  position: absolute;
+  left: 333px;
+  top: 498px;
+  display: flex;
+}
+/*# sourceMappingURL=style.css.map */
